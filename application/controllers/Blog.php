@@ -102,6 +102,7 @@ class Blog extends CI_Controller {
 
 	/**
 	 * Generate a new CAPTCHA
+	 * Generated CAPTCHA will be exported to assets/images/captcha
 	 */
 	private function _create_captcha() {
         $vals = array(
